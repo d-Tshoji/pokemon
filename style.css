@@ -1,0 +1,58 @@
+
+html{
+    background:GhostWhite;
+}
+
+/*ここからフィールド*/
+.field{
+    display: flex;
+
+}
+
+.field > div{
+    margin: 30px;
+}
+
+/*ここからフレーム*/
+.frame{
+    width: 160px;
+    padding: 20px;
+    border: 2px solid #fff;
+    background: #fff;
+
+    box-shadow: 3px 3px 5spx #000;
+    -webkit-box-shadow: 3px 3px 5px #000;
+    -moz-box-shadow: 3px 3px 5px #000;
+}
+
+/*ここからライフ*/
+.life{
+    width: 100%;
+    border: 1px solid #ddd;
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+.life-value{    
+    width: 100%;
+    transition: 1s;
+    height: 20px;
+    background-color: limegreen;
+}
+
+.life-vakue--danger{
+    background-color: red;
+}
+
+/*ここからイメージ*/
+.photo img{
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*ここからボタン*/
+.skills button{
+    display: block;
+}
